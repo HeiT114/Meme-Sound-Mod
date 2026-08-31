@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "music_player_mod",
+	"version": "${version}",
+	"name": "Music Player Mod",
+	"description": "Plays music on flying, death, W+S, C key, idle, advancements and cat kill. 飞行/死亡/W+S/C键/挂机/成就/杀猫音效，含设置界面。",
+	"authors": [
+		"mods"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://fabricmc.net/"
+	},
+	"license": "MIT",
+	"icon": "assets/music_player_mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.example.musicplayermod.MusicPlayerMod"
+		],
+		"client": [
+			"com.example.musicplayermod.client.MusicPlayerModClient"
+		]
+	},
+	"mixins": [
+		{
+			"config": "music_player_mod.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
