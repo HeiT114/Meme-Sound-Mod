@@ -1,0 +1,74 @@
+{
+	"chinese_can_fly": {
+		"subtitle": "sound.music_player_mod.chinese_can_fly",
+		"sounds": [
+			{
+				"name": "music_player_mod:chinese_can_fly",
+				"stream": true
+			}
+		]
+	},
+	"tuco_get_out": {
+		"subtitle": "sound.music_player_mod.tuco_get_out",
+		"sounds": [
+			{
+				"name": "music_player_mod:tuco_get_out",
+				"stream": false
+			}
+		]
+	},
+	"vine_boom": {
+		"subtitle": "sound.music_player_mod.vine_boom",
+		"sounds": [
+			{
+				"name": "music_player_mod:vine_boom",
+				"stream": false
+			}
+		]
+	},
+	"du_bist_gut_genug": {
+		"subtitle": "sound.music_player_mod.du_bist_gut_genug",
+		"sounds": [
+			{
+				"name": "music_player_mod:du_bist_gut_genug",
+				"stream": false
+			}
+		]
+	},
+	"a_few_moments_later": {
+		"subtitle": "sound.music_player_mod.a_few_moments_later",
+		"sounds": [
+			{
+				"name": "music_player_mod:a_few_moments_later",
+				"stream": false
+			}
+		]
+	},
+	"oh_my_god": {
+		"subtitle": "sound.music_player_mod.oh_my_god",
+		"sounds": [
+			{
+				"name": "music_player_mod:oh_my_god",
+				"stream": false
+			}
+		]
+	},
+	"sad_meow": {
+		"subtitle": "sound.music_player_mod.sad_meow",
+		"sounds": [
+			{
+				"name": "music_player_mod:sad_meow",
+				"stream": true
+			}
+		]
+	},
+	"gogogogogogo": {
+		"subtitle": "sound.music_player_mod.gogogogogogo",
+		"sounds": [
+			{
+				"name": "music_player_mod:gogogogogogo",
+				"stream": false
+			}
+		]
+	}
+}
